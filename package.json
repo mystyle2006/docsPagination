@@ -1,0 +1,12 @@
+{
+  "name": "docsPagination",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transpiler": "babel js -d build"
+  },
+  "keywords": [],
+  "author": "INHO LEE <sayyou0918@gmail.com>",
+  "license": "ISC"
+}
