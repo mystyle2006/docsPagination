@@ -21,9 +21,7 @@ const handleLetter = (e) => {
 
   //When pressing enter at the last row, disable
   if(e.key === "Enter") {
-    console.log('bb');
     if(currentRow >= maxRows) {
-      console.log('aa');
       const newTextarea = document.createElement('textarea');
        document.getElementById('container').appendChild(newTextarea);
        newTextarea.className = 'letter';
